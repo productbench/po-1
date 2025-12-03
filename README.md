@@ -5,14 +5,14 @@ PO-1 is a product repository—a structure for product people to organize conten
 
 # What does the structure look like?
 
-├── .ai/          → Skills and instructions for your AI
-├── product/      → What you're building (current state)
-├── discovery/    → What you're learning (research)
-├── strategy/     → Where you're going (vision, goals, roadmap)
-├── execution/    → What you're shipping (PRDs, specs, releases)
-├── operations/   → How you work (team, processes, decisions)
-├── workbench/    → Temporary workspace (ideas, experiments, all work in progress)
-└── archive/      → Long-term storage for completed work
+├── .ai/          → Skills and instructions for your AI  
+├── product/      → What you're building (current state)  
+├── discovery/    → What you're learning (research)  
+├── strategy/     → Where you're going (vision, goals, roadmap)  
+├── execution/    → What you're shipping (PRDs, specs, releases)  
+├── operations/   → How you work (team, processes, decisions)  
+├── workbench/    → Temporary workspace (ideas, experiments, all work in progress)  
+└── archive/      → Long-term storage for completed work  
 
 Each subfolder has its own readme.md for further information.
 
