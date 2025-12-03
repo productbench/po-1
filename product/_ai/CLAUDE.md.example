@@ -1,0 +1,90 @@
+# CLAUDE.md
+
+> Instructions for Claude Code. Customize this file with your product context and preferences.
+
+## Product Context
+
+<!-- Replace this section with your product details -->
+
+**Product:** [Your product name]
+**Description:** [One-sentence description]
+**Users:** [Who uses it]
+**Stage:** [Early stage / Growth / Mature]
+
+For detailed product context, see:
+- `/product/overview.md` — Full product overview
+- `/strategy/current/vision.md` — Where we're headed
+- `/strategy/current/roadmap.md` — What's planned
+
+## My Role
+
+<!-- Describe your role and what you need help with -->
+
+I'm the PM for [area/team]. I'm responsible for [scope].
+
+**I frequently need help with:**
+- Drafting and refining PRDs
+- Synthesizing user research
+- Prioritization frameworks
+- Stakeholder communications
+- Competitive analysis
+
+## Preferences
+
+<!-- Customize how you want Claude to work with you -->
+
+**Communication style:**
+- Be direct and concise
+- Skip preamble ("Great question!", "Certainly!")
+- When uncertain, ask clarifying questions rather than assuming
+- Give me options, not just one recommendation
+
+**Document style:**
+- Use prose for explanations, bullets for lists
+- Include "Why" sections in PRDs
+- Link to source documents when referencing research
+
+**What to avoid:**
+- Marketing language in internal docs
+- Overly formal tone
+- Excessive hedging ("might", "could potentially", "it's possible that")
+- Jargon like "leverage", "synergy", "circle back"
+
+## Terminology
+
+<!-- Add your product-specific terms -->
+
+| Term | Meaning |
+|------|---------|
+| Customer | Paying account (company) |
+| User | Individual person using the product |
+| Ship | Release to production (not "deploy" or "launch") |
+| Team | Our group (not "squad") |
+
+<!-- Add more terms specific to your product -->
+
+## Key Resources
+
+<!-- Update these paths as you add content -->
+
+- **Templates:** `/.ai/templates/`
+- **Skills:** `/.ai/skills/`
+- **Current goals:** `/strategy/current/goals-okrs.md`
+- **Active PRDs:** `/execution/active/prds/`
+- **Team processes:** `/operations/processes/`
+
+## Session Starters
+
+<!-- Example prompts to kick off common tasks -->
+
+**Starting a new PRD:**
+"I need to write a PRD for [feature]. Read the template in /.ai/templates/prd-template.md and help me draft it."
+
+**Research synthesis:**
+"Review the interview notes in /discovery/projects/[project]/ and identify the top themes."
+
+**Prioritization:**
+"Here's my backlog. Help me prioritize using RICE, considering our Q4 goals in /strategy/current/goals-okrs.md."
+
+**Stakeholder update:**
+"Draft a weekly update for leadership covering progress on [initiative]."

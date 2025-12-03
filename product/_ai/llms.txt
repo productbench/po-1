@@ -1,0 +1,97 @@
+# PO-1: Product Context Repository
+
+> A structured folder system for product managers to organize context for AI-powered workflows.
+
+## Quick Start
+
+Start here:
+- `/product/overview.md` — What we're building (current state)
+- `/strategy/current/vision.md` — Where we're headed
+- `/.ai/CLAUDE.md` — How to work with me
+
+## Repository Structure
+
+```
+├── .ai/          → Skills and instructions for AI assistants
+├── product/      → Current product state (source of truth)
+├── discovery/    → Research and insights
+├── strategy/     → Vision, goals, roadmap
+├── execution/    → PRDs, specs, active work
+├── operations/   → Team, processes, decisions
+├── workbench/    → Temporary workspace (WIP, ideas)
+└── archive/      → Long-term storage
+```
+
+## Folder Purposes
+
+### /.ai/
+AI instructions and reusable skills. Read `CLAUDE.md` or `.cursorrules` first to understand preferences, terminology, and how to help effectively.
+
+### /product/
+The product *as it exists today*. Single source of truth for what we've built, who uses it, and how it works. Always current.
+
+### /discovery/
+What we're learning. User research, competitive analysis, market insights. Evidence that informs decisions.
+
+### /strategy/
+Where we're going. Vision (long-term), goals/OKRs (quarterly), and roadmap. The "why" behind what we build.
+
+### /execution/
+What we're shipping. Active PRDs, specs, and user stories. Recently shipped work. The "how" of building.
+
+### /operations/
+How we work. Team structure, processes, meeting notes, and decision records (ADRs).
+
+### /workbench/
+Scratch space. Ideas, experiments, drafts. Things that haven't found their home yet.
+
+### /archive/
+Historical context. Completed research, past goals, shipped features (6+ months old), old meeting notes.
+
+## Key Files
+
+| File | Purpose |
+|------|---------|
+| `/.ai/CLAUDE.md` | AI instructions and preferences |
+| `/product/overview.md` | Product summary and value prop |
+| `/strategy/current/vision.md` | Long-term product direction |
+| `/strategy/current/goals-okrs.md` | Current objectives |
+| `/strategy/current/roadmap.md` | What's planned and when |
+| `/operations/team/team-charter.md` | Team mission and agreements |
+
+## Navigation Tips
+
+**For product questions:** Start with `/product/overview.md`, then explore `/product/` subfolders.
+
+**For strategic context:** Read `/strategy/current/` files in order: vision → goals → roadmap.
+
+**For active work:** Check `/execution/active/` for PRDs in progress.
+
+**For research:** Browse `/discovery/ongoing/` for evergreen insights, `/discovery/projects/` for active research.
+
+**For process questions:** See `/operations/processes/` for how things get done.
+
+**For historical context:** Search `/archive/` with the relevant subfolder (discovery, strategy, execution, operations).
+
+## Content Freshness
+
+| Folder | Update Frequency |
+|--------|-----------------|
+| `/product/` | When features ship or change |
+| `/discovery/ongoing/` | Continuously |
+| `/strategy/current/` | Quarterly (goals), monthly (roadmap) |
+| `/execution/active/` | Daily/weekly during development |
+| `/operations/` | As processes change |
+| `/workbench/` | Ad hoc |
+
+## For AI Assistants
+
+1. **Read `/.ai/CLAUDE.md` first** for preferences and terminology
+2. **Check `/product/overview.md`** for product context
+3. **Reference specific folders** based on the task:
+   - Writing PRDs → `/execution/`, `/.ai/templates/`
+   - Research synthesis → `/discovery/`
+   - Strategic alignment → `/strategy/current/`
+   - Process questions → `/operations/`
+4. **Link your sources** when referencing documents
+5. **Suggest updates** if you notice outdated information
